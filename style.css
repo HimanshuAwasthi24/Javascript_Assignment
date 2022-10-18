@@ -1,0 +1,100 @@
+html {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td,
+th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgb(235, 235, 235);
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250, 250, 250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245, 245, 245);
+}
+
+caption {
+  padding: 10px;
+}
+
+.btn {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 0px 10px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.uploadButton {
+  border: 2px solid rgb(200, 200, 200);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.uploadbutton input[type='file'] {
+  opacity: 0;
+}
+
+.uploadButton label {
+  display: inline-block;
+  background-color: indigo;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: rgb(200, 200, 200);
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  font-size: 13px;
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  left: 120%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
